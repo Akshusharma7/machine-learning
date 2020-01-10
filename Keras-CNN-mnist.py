@@ -37,3 +37,14 @@ model.add(Dense(10, activation='softmax'))
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 
+#train model
+model.fit(X_train, y_train,validation_data=(X_test, y_test), epochs=3)
+
+
+#show predictions for the first 3 images in the test set
+model.predict(X_test[:4])
+
+#show actual results for the first 3 images in the test set
+y_test[:4]
+
+
