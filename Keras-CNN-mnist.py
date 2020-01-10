@@ -48,4 +48,4 @@ model.predict(X_test[:4])
 #show actual results for the first 3 images in the test set
 y_test[:4]
 
-
+#Compare the result
