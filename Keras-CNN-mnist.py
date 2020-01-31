@@ -25,7 +25,6 @@ y_test = to_categorical(y_test)
 
 print(y_train[0])
 
-
 #create model
 model = Sequential()
 
