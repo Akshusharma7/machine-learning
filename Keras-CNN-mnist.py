@@ -20,6 +20,7 @@ print(X_train[0].shape) #(28,28)
 X_train = X_train.reshape(60000,28,28,1)
 X_test = X_test.reshape(10000,28,28,1)
 
+
 #one-hot encode target column
 y_train = to_categorical(y_train)
 y_test = to_categorical(y_test)
