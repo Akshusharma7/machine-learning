@@ -19,6 +19,7 @@ from keras.utils import to_categorical
 print(X_train[0].shape) #(28,28)
 
 
+
 #reshape data to fit model
 X_train = X_train.reshape(60000,28,28,1)
 X_test = X_test.reshape(10000,28,28,1)
