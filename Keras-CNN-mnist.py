@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 from keras.datasets import mnist
 from keras.utils import to_categorical
 
-
 #When using Jupyter Notebook else comment it
 %matplotlib inline
 
